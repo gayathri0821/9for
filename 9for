@@ -1,14 +1,25 @@
 
+pseudocode:-
 
 
 
+BEGIN
 
+numeric variable rnum
 
+DISPLAY enter number
 
+INPUT num
 
+DISPLAY the original number
 
+FOR num!=0 ;num/=10
 
+check condition d=no%10 and rnum=rnum*10+d
 
+DISPLAY reversed number
+
+END
 
 
 
