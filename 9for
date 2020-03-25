@@ -1,0 +1,48 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+program:-
+//create package 
+package march24;
+//create class
+public class Ex9for 
+{
+//create main method
+	public static void main(String  ...args)
+	{
+		//initialize a variable rnum
+		int rnum=0;
+		//using scanner class we have to read inputs
+		java.util.Scanner sc=new java.util.Scanner(System.in);
+		//prompt the user for taking input value
+		System.out.println("enter number");
+		//read the input from keyboard and store it on one variable ie, num
+		int no=sc.nextInt();
+		//print  the value 
+		System.out.println("the  original number is:"+no);
+		//using for loop to find the reverse number
+		// first check the input number is not equals to 0 or not
+		//after num is divisible by 10
+		for(;no!=0;no/=10)
+		{
+			//checking the given conditions
+			int digit=no%10;
+			rnum=rnum*10+digit;
+		}//endof forloop
+		//print the reversed value
+		System.out.println("reversed number is:"+rnum);
+	}//end of mainmethod
+}//end of class block
